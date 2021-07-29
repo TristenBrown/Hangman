@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hangman.AboutController">
+   <children>
+      <Text layoutX="266.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, my name is Tristen Brown and I'm currently a CS student at Mizzou. This application allows users to play hangman and saves and loads a working leaderboard! In order to supply words for hangman, this application pulls from a random word api. Many of the words are quite difficult since it's using a scrabble dictionary! In addition to that, in order to load and save the leaderboard, I'm using a sqlite database. I made this application in order to entertain people. I hope you like it!" textAlignment="CENTER" wrappingWidth="519.984375">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Button layoutX="268.0" layoutY="338.0" mnemonicParsing="false" onAction="#goBack" text="Back to Game" />
+   </children>
+</AnchorPane>

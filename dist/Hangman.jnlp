@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Hangman.jnlp">
+  <information>
+    <title>Hangman</title>
+    <vendor>tristen</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Hangman.jar" size="19061" download="eager" />
+    <jar href="lib/sqlite-jdbc-3.32.3.2.jar" size="7210681" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Hangman" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="finalproject.Tlbbf5FinalProject"  name="Hangman" />
+  <update check="always"/>
+</jnlp>
